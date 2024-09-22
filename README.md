@@ -113,7 +113,6 @@ This is your TypeScript configuration file:
 ## Usage
 
 1. **Prepare the JSON file**:
-   - Add your fuel data to a `response.json` file in the same directory.
    - The file should have the following structure:
      ```json
      [
