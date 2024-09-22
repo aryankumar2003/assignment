@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises';
 
-// Define the structure of the input data
+//structure of the input data
 interface FuelData {
   fuel_level: number;
   timestamp: number;
@@ -10,7 +10,7 @@ interface FuelData {
   };
 }
 
-// Define the structure for the output FuelFillEvent
+//structure for the output FuelFillEvent
 interface FuelFillEvent {
   start_time: number;
   end_time: number;
@@ -87,5 +87,5 @@ async function readAndProcessFuelData(filePath: string) {
   }
 }
 
-// Call the function with the path to your JSON file
-readAndProcessFuelData('./response.json'); // Make sure the path is correct
+// Calling the function with the path to JSON file
+readAndProcessFuelData('./response.json'); 

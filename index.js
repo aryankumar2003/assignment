@@ -102,5 +102,5 @@ function readAndProcessFuelData(filePath) {
         });
     });
 }
-// Call the function with the path to your JSON file
-readAndProcessFuelData('./response.json'); // Make sure the path is correct
+// Calling the function with the path to JSON file
+readAndProcessFuelData('./response.json');
